@@ -1,0 +1,20 @@
+```{r}
+install.packages("e1071")
+library(e1071)
+```
+
+
+```{r}
+detach("package:e1071", unload=TRUE)
+remove.packages("e1071")
+```
+
+
+```{r}
+plot(iris[,1:4])
+```
+```{r}
+x = c(12, 34, 56, 43)
+y = c(34, 89, 32, 12)
+plot(x, y)
+```
