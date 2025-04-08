@@ -1,6 +1,6 @@
 
 
-data = read.csv("C:/Users/danil/Curso de Ciencia de Dados/FormacaoCD/todos os arquivos/9.Prática em R/dados/Churn.csv", sep = ";", na.strings = "", stringsAsFactors = TRUE)
+data = read.csv("a", sep = ";", na.strings = "", stringsAsFactors = TRUE)
 head(data)
 summary(data)
 View(data)
